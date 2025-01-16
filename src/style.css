@@ -1,0 +1,88 @@
+/* Global Scrollbar Style */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #beb4f8 transparent; 
+  font-family: Verdana, sans-serif  /* Green thumb with transparent track */
+}
+
+/* Webkit Browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 10px; /* Vertical scrollbar width */
+  height: 10px; /* Horizontal scrollbar height */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Transparent background for the track */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4CAF50; /* Green color for the thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+  transition: background 0.3s ease; /* Smooth transition on hover */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #388E3C; /* Darker green when hovered */
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent; /* Transparent corner where the scrollbars meet */
+}
+
+/* Optional: Add smooth scrolling behavior */
+html {
+  scroll-behavior: smooth;
+}
+/* General styles for link hover effect */
+.nav-link {
+  position: relative;
+  display: inline-block;
+  color: white;
+  padding-bottom: 1rem; /* Adjust according to your design */
+  transition: color 0.3s ease; /* For smooth transition of the link color */
+}
+
+/* The `::after` pseudo-element for the underline effect */
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px; /* Thickness of the underline */
+  width: 100%;
+  background-color: #fbbf24; /* Yellow color (#fbbf24 is the same as Tailwind's yellow-400) */
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+/* When hovering over the link, the `::after` pseudo-element expands */
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+/* Optional: For active link, apply a full underline */
+.nav-link.active::after {
+  transform: scaleX(1);
+}
+
+/* Example of adding the link color on hover */
+.nav-link:hover {
+  color: #fbbf24; /* Adjust the hover link color */
+}
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
