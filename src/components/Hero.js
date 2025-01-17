@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import zarbia from "../images/poof.png";
-
+import { useLocation, Link } from 'react-router-dom';
 export default function Hero() {
     const [isVisible, setIsVisible] = useState(false);
 
@@ -58,12 +58,12 @@ export default function Hero() {
                         to your home.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                        <a
-                            href="/shop"
+                        <Link 
+                            onClick={() => document.getElementById('prod-section').scrollIntoView({ behavior: 'smooth' })}
                             className="px-8 py-3 bg-yellow-400 text-black font-medium rounded-md hover:bg-yellow-500 transition-colors"
                         >
                             Shop Now
-                        </a>
+                        </Link>
                         <a
                             href="/explore"
                             className="px-8 py-3 border border-white text-white font-medium rounded-md hover:bg-white/10 transition-colors"

@@ -64,7 +64,7 @@ export default function ProductsSection() {
     };
 
     return (
-        <section ref={sectionRef} className="container mx-auto px-4 py-24">
+        <section ref={sectionRef}  className="container mx-auto px-4 py-24">
             <div className="max-w-xl mb-16">
                 <h2 className="text-4xl font-bold mb-6">Crafted with excellent material.</h2>
                 <p className="text-gray-600">
@@ -75,7 +75,7 @@ export default function ProductsSection() {
                 </button>
             </div>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-5 gap-4">
+            <div id='prod-section' className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-5 gap-4">
                 {products.map((product, index) => (
                     <ProductCard
                         key={product.id}
