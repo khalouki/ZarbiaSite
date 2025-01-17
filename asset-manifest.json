@@ -1,22 +1,25 @@
 {
   "files": {
     "main.css": "/ZarbiaSite/static/css/main.662f4501.css",
-    "main.js": "/ZarbiaSite/static/js/main.e416c8dd.js",
+    "main.js": "/ZarbiaSite/static/js/main.d111a959.js",
     "static/media/zarbia5.webp": "/ZarbiaSite/static/media/zarbia5.c707f9861d734222c398.webp",
     "static/media/poof.png": "/ZarbiaSite/static/media/poof.8e7bd633a81f1fac7947.png",
     "static/media/zarbia3.jpeg": "/ZarbiaSite/static/media/zarbia3.e43935b031c76a208711.jpeg",
     "static/media/zarbia2.webp": "/ZarbiaSite/static/media/zarbia2.d7327e18efba02273b9c.webp",
     "static/media/zarbia1.jpg": "/ZarbiaSite/static/media/zarbia1.1919dae39f4f280639a4.jpg",
     "static/media/wom.webp": "/ZarbiaSite/static/media/wom.c0519fd506f65cf9121f.webp",
+    "static/media/person_4.jpg": "/ZarbiaSite/static/media/person_4.e140471939f87b3752ba.jpg",
     "static/media/poof.webp": "/ZarbiaSite/static/media/poof.93b73750e05a82adf636.webp",
+    "static/media/person_3.jpg": "/ZarbiaSite/static/media/person_3.5fc16e3352daa95e18a3.jpg",
+    "static/media/person-1.jpg": "/ZarbiaSite/static/media/person-1.bf65fa90e24bf242a489.jpg",
     "static/media/zarbia4.jpg": "/ZarbiaSite/static/media/zarbia4.f5ad817f7b7909ae4440.jpg",
     "static/media/logo.png": "/ZarbiaSite/static/media/logo.fa13c359ce34afe74386.png",
     "index.html": "/ZarbiaSite/index.html",
     "main.662f4501.css.map": "/ZarbiaSite/static/css/main.662f4501.css.map",
-    "main.e416c8dd.js.map": "/ZarbiaSite/static/js/main.e416c8dd.js.map"
+    "main.d111a959.js.map": "/ZarbiaSite/static/js/main.d111a959.js.map"
   },
   "entrypoints": [
     "static/css/main.662f4501.css",
-    "static/js/main.e416c8dd.js"
+    "static/js/main.d111a959.js"
   ]
 }
