@@ -3,6 +3,7 @@ import { Star } from 'lucide-react';
 import personne from '../images/person_3.jpg';
 import personne2 from '../images/person_4.jpg';
 import personne3 from '../images/person-1.jpg';
+
 // Mock data for testimonials
 const testimonials = [
     {
@@ -34,10 +35,14 @@ const testimonials = [
 // Testimonial card component
 const TestimonialCard = ({ name, role, content, rating, image, isVisible }) => (
     <div
-        className={`bg-white p-6 rounded-lg shadow-md transition-all duration-1000 ease-out transform ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-full'}`}
+        className={`bg-white p-6 rounded-lg shadow-md  ${isVisible ? 'animate__animated animate__flipInX' : 'opacity-0 translate-x-full'}`}
     >
         <div className="flex items-center mb-4">
-            <img src={image || "/placeholder.svg"} alt={name} className="w-12 h-12 rounded-full mr-4" />
+            <img 
+                src={image || "/placeholder.svg"} 
+                alt={name} 
+                className="w-12 h-12 rounded-full mr-4 object-cover" // Ensure image is contained
+            />
             <div>
                 <h3 className="font-semibold text-lg">{name}</h3>
                 <p className="text-gray-600">{role}</p>
