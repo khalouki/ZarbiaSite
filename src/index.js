@@ -6,6 +6,7 @@ import Hero from './components/Hero'
 import ProductsSection from './components/products-section'
 import FeaturesSection from './components/FeaturesSection'
 import Footer from './components/Footer'
+import TestimonialSection from './components/about-dev'
 import "../src/style.css"
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         <ProductsSection />
         <FeaturesSection />
+        <TestimonialSection />
         <Footer />
       </main>
       <Routes>
