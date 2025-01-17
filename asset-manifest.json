@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ZarbiaSite/static/css/main.662f4501.css",
-    "main.js": "/ZarbiaSite/static/js/main.d111a959.js",
+    "main.js": "/ZarbiaSite/static/js/main.f316c2da.js",
     "static/media/zarbia5.webp": "/ZarbiaSite/static/media/zarbia5.c707f9861d734222c398.webp",
     "static/media/poof.png": "/ZarbiaSite/static/media/poof.8e7bd633a81f1fac7947.png",
     "static/media/zarbia3.jpeg": "/ZarbiaSite/static/media/zarbia3.e43935b031c76a208711.jpeg",
@@ -16,10 +16,10 @@
     "static/media/logo.png": "/ZarbiaSite/static/media/logo.fa13c359ce34afe74386.png",
     "index.html": "/ZarbiaSite/index.html",
     "main.662f4501.css.map": "/ZarbiaSite/static/css/main.662f4501.css.map",
-    "main.d111a959.js.map": "/ZarbiaSite/static/js/main.d111a959.js.map"
+    "main.f316c2da.js.map": "/ZarbiaSite/static/js/main.f316c2da.js.map"
   },
   "entrypoints": [
     "static/css/main.662f4501.css",
-    "static/js/main.d111a959.js"
+    "static/js/main.f316c2da.js"
   ]
 }
